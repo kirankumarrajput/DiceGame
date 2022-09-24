@@ -16,6 +16,6 @@ btn.addEventListener("click", () => {
       head1.innerText = "Player2 Wins! 🚩";
     }
   }
-  firstDice.setAttribute("src", "Images/dice" + player1 + ".png");
-  secondDice.setAttribute("src", "Images/dice" + player2 + ".png");
+  firstDice.setAttribute("src", "images/dice" + player1 + ".png");
+  secondDice.setAttribute("src", "images/dice" + player2 + ".png");
 });
